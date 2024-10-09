@@ -1,4 +1,4 @@
-import { Redis as UpstashRedis } from "@upstash/redis";
+import type { Redis as UpstashRedis } from "@upstash/redis";
 import Tokenizer from "./tokenization";
 import isEqual from "lodash/isEqual";
 

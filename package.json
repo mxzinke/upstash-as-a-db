@@ -3,17 +3,25 @@
   "module": "index.ts",
   "type": "module",
   "version": "1.0.0",
+  "license": "MIT",
+  "author": "Maximilian Pfennig <max@mapstudio.ai>",
   "devDependencies": {
     "@types/bun": "latest",
     "@types/crypto-js": "^4.2.2",
-    "@types/lodash": "^4.17.10"
+    "@types/lodash": "^4.17.10",
+    "@upstash/redis": "^1.34.2"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "@upstash/redis": "^1.34.2",
     "crypto-js": "^4.2.0",
     "lodash": "^4.17.21"
+  },
+  "description": "Simple, type-safe interface to use Upstash Redis as Database incl. Encryption.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
