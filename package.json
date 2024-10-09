@@ -1,0 +1,19 @@
+{
+  "name": "upstash-as-a-db",
+  "module": "index.ts",
+  "type": "module",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/crypto-js": "^4.2.2",
+    "@types/lodash": "^4.17.10"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@upstash/redis": "^1.34.2",
+    "crypto-js": "^4.2.0",
+    "lodash": "^4.17.21"
+  }
+}
