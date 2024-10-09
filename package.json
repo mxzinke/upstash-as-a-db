@@ -19,7 +19,7 @@
     "lodash": "^4.17.21"
   },
   "description": "Simple, type-safe interface to use Upstash Redis as Database incl. Encryption.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
