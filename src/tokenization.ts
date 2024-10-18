@@ -1,5 +1,3 @@
-"use server";
-
 import crypto from "crypto-js";
 
 /**
@@ -10,7 +8,7 @@ import crypto from "crypto-js";
  */
 export default class Tokenizer<T> {
   constructor(private readonly secretKey: string, private readonly iv: string) {
-    if (secretKey || iv) {
+    if (!secretKey || !iv) {
       throw new Error("Secret key and IV must be provided!");
     }
   }
