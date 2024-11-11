@@ -2,7 +2,7 @@
   "name": "upstash-as-a-db",
   "module": "index.ts",
   "type": "module",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "MIT",
   "author": "Maximilian Pfennig <max@mapstudio.ai>",
   "devDependencies": {
@@ -22,6 +22,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "bun run build && npm publish"
   }
 }
