@@ -2,7 +2,7 @@
   "name": "upstash-as-a-db",
   "module": "index.ts",
   "type": "module",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "author": "Maximilian Pfennig <max@mapstudio.ai>",
   "devDependencies": {
