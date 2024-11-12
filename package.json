@@ -4,7 +4,8 @@
   "type": "module",
   "version": "1.0.4",
   "license": "MIT",
-  "author": "Maximilian Pfennig <max@mapstudio.ai>",
+  "author": "Maximilian Pfennig <max@coin-mirror.org>",
+  "repository": "https://github.com/coin-mirror/upstash-as-a-db",
   "devDependencies": {
     "@types/bun": "latest",
     "@types/crypto-js": "^4.2.2",
@@ -23,6 +24,6 @@
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "publish": "bun run build && npm publish"
+    "prepublish": "bun run build"
   }
 }
