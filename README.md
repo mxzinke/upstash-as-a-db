@@ -22,13 +22,13 @@ That's why the package has a `Collection` interface which can be used to handle 
 ## Installation
 
 ```bash
-bun add upstash-as-a-db
+bun add @coin-mirror/upstash-as-a-db
 # OR
-pnpm add upstash-as-a-db
+pnpm add @coin-mirror/upstash-as-a-db
 # OR
-yarn add upstash-as-a-db
+yarn add @coin-mirror/upstash-as-a-db
 # OR
-npm install upstash-as-a-db
+npm install @coin-mirror/upstash-as-a-db
 ```
 
 You can generate the secrets and vector for encryption like this:

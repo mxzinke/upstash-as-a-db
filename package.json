@@ -1,5 +1,5 @@
 {
-  "name": "upstash-as-a-db",
+  "name": "@coin-mirror/upstash-as-a-db",
   "module": "index.ts",
   "type": "module",
   "version": "1.0.4",
